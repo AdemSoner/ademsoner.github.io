@@ -32,13 +32,13 @@
       }
       section { display: none;}
       footer {
-        position: fixed;
+        position: relative;
          bottom: 0px;
          left: 0px;
        width: 100%;
        height: 50px;
        padding:15px;
-       background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80);;
+       /*background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80);;*/
       }
       table {
           margin: auto;
@@ -118,6 +118,7 @@
   </head>
 
   <body class="w3-white">
+    
     <!-- Content container -->
     <div class="container">
       <!-- Image and name container. Change to your picture here. -->
@@ -139,9 +140,10 @@
         <!-- Links section 1. Replace the # inside of the "" with your links. -->
         <div class="links-container">
           <a href="#main" class="w3-button w3-hover-blue w3-large w3-round-xlarge w3-yellow link"> Anasayfa  </a>
-          <a href="#hakkimda" class="w3-button w3-hover-blue w3-large w3-round-xlarge w3-yellow link" > Hakkımda     </a>
+          <a href="#hakkimda" class="w3-button w3-hover-blue w3-large w3-round-xlarge w3-yellow link" > Hakkımda</a>
           <a href="#social" class="w3-button w3-hover-blue w3-large w3-round-xlarge w3-yellow link" > Sosyal Medya </a>
           <a href="#contact" class="w3-button w3-hover-blue w3-large w3-round-xlarge w3-yellow link" > Bana ulaşın </a>
+          <a href="img/cv.png" class="w3-button w3-hover-blue w3-large w3-round-xlarge w3-yellow link" target="_blank"> CV </a>
         </div>
       </div>
     </div>
@@ -159,7 +161,6 @@
         
         </div>
       </section>
-
 
       <section id="hakkimda">
         <div class="w3-content w3-padding-32 w3-center" style="padding-right: 10px; padding-left: 10px; max-width: 600px">
@@ -180,7 +181,7 @@
                 </button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <button class="w3-button w3-yellow w3-padding-large w3-round-xlarge">
-                  <b><a href="img/cv.rar">CV indir</a></b>
+                  <b><a href="img/cv.rar" title="Cv indir">CV indir</a></b>
                 </button>
               </p>
             </div>
@@ -261,10 +262,10 @@
             </div>
           </section>
         
-      <footer class="w3-container w3-center">
-        <p class="w3-text-white"> Copyright© by Adem SONER 2022, Tüm hakları saklıdır. </p>
-
-      </footer>
+          <footer class="w3-container w3-center w3-padding-64">
+            <p class="w3-text-white"> Copyright© by Adem SONER 2022, Tüm hakları saklıdır. </p>
+      
+          </footer>
     </div>
   </body>
 </html>
